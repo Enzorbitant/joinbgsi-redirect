@@ -1,8 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:placeID?/:gameInstanceId?",
-      "destination": "/api/redirect"
+      "src": "/(.*)",
+      "dest": "/api/redirect"
     }
   ]
 }
