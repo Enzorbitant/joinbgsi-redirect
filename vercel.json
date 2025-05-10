@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:placeID?/:gameInstanceId?",
+      "destination": "/api/redirect"
+    }
+  ]
+}
