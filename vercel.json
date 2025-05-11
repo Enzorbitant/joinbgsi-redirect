@@ -1,8 +1,16 @@
 {
   "routes": [
     {
+      "src": "/api/redirect",
+      "dest": "/api/redirect.js"
+    },
+    {
+      "src": "/api/verify-captcha",
+      "dest": "/api/verify-captcha.js"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/api/redirect"
+      "dest": "/index.html"
     }
   ]
 }
