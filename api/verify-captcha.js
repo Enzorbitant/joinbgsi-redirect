@@ -4,7 +4,7 @@ module.exports = async (req, res) => {
   const { captchaResponse, placeID, gameInstanceId } = req.body;
 
   // Vérifie le captcha avec hCaptcha
-  const hcaptchaSecret = 'a28c40a2-fbe8-4dd0-81e6-7df227541978'; // Remplace par ta clé secrète
+  const hcaptchaSecret = 'ES_983f1b8e2df949b2a07b6d39d15140a2'; // Remplace par ta clé secrète
   const verifyUrl = `https://hcaptcha.com/siteverify`;
 
   try {
